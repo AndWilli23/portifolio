@@ -50,6 +50,10 @@
     .lista-projetos {
         margin: 1rem;
     }
+
+    .projetos-link {
+        padding: 2rem 14rem;
+    }
  }
 
 @media  (max-width:620px) {

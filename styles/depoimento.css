@@ -1,0 +1,63 @@
+.container-depoimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top:  6rem;
+}
+
+.card-depoimento {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--hover-texto);
+    margin: 2rem 10rem;
+    padding: 2rem;
+    border-radius: 12px ;
+    gap:1.5rem;
+}
+
+.depoimento-info {
+    display: flex;
+    gap: 1rem; 
+    align-items: center;
+}
+
+.depoimento-imagem {
+    width: 5%;
+}
+.depoimento-imagem-2 {
+    width:10%;
+    border-radius: 480px;
+}
+
+@media  (max-width:1024px) {
+    
+    .card-depoimento {
+        margin: .5rem 1.5rem;
+        
+    }
+ }
+
+ @media  (max-width:620px) {
+    
+    .card-depoimento {
+        margin: .25rem 0.75rem;
+    }
+
+    .estilo-texto {
+        text-align: center;
+    }
+
+    .depoimento-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .depoimento-imagem {
+        width: 15%;
+    }
+
+    .depoimento-imagem-2 {
+        width: 25%;
+    }
+ }

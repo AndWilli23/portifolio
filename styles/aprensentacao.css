@@ -1,0 +1,30 @@
+
+.aprensentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+@media  (max-width:1024px) {
+    
+    .container-aprensentacao{
+       margin: 0 15rem;
+    }
+    .aprensentacao {
+        white-space: nowrap;
+        margin-top: 12rem;
+    } 
+ }
+
+@media  (max-width:620px) {
+
+    .aprensentacao {
+        margin-top: 15rem;
+    }
+
+    .container-aprensentacao {
+        margin: 0 10rem;
+    }
+}

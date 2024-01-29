@@ -1,0 +1,30 @@
+.container-contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.contatos-organizacao {
+    display: flex;
+    text-align: center;
+    gap: 6rem;
+}
+
+.ajuste-contatos {
+    margin: 1rem;
+}
+
+.contatos-ancora {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contatos-link {
+    text-decoration: none;
+    color: var(--cor-destaque);
+}
